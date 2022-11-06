@@ -24,22 +24,25 @@
 - 반환
 
 ```json
-[
-   {
-      "id":1,
-      "picThumbnail":".../...png",
-      "name":"레모나",
-      "vendor":"일동제약",
-      "price":3000,
-      "reviewer":30,
-      "checklists":[
-         {
-            "id":1,
-            "num":2
-         }
-      ]
-   }
-]
+{
+   "data" : [
+      {
+         "id":1,
+         "picThumbnail":".../...png",
+         "name":"레모나",
+         "vendor":"일동제약",
+         "price":3000,
+         "reviewer":30,
+         "checklists":[
+            {
+               "id":1,
+               "num":2
+            }
+         ]
+      }
+   ],
+   "total" : 100
+}
 ```
 
 ## 2. 상품 조회 페이지
