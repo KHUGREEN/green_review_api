@@ -42,6 +42,29 @@
 ]
 ```
 
+### 2) 상품 목록 길이 조회 (GET)
+
+<aside>
+📌 example[.](http://domain.com/product/${ID}/reviews?offset)com/product/size?q=${queryString}
+
+</aside>
+
+
+
+- 요청
+
+```
+- 검색어
+```
+
+- 반환
+
+```json
+{
+   "length":11
+}
+```
+
 ## 2. 상품 조회 페이지
 
 ### 1) 상품 데이터 조회 (GET)
